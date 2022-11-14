@@ -23,4 +23,11 @@ spec:
           service:
             name: inventory-clusterip-srv
             port:
+              number: 80      
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: react-clusterip-srv
+            port:
               number: 80
