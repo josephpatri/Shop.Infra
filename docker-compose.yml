@@ -17,8 +17,6 @@ services:
     volumes:
       - rabbitmqdata:/var/lib/rabbitmq
     hostname: rabbitmq
-networks: 
-  mynetwork: {}
 
 volumes: 
   mongodbdata:
